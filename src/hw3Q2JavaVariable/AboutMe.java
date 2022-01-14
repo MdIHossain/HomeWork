@@ -13,7 +13,7 @@ public class AboutMe {
 	public long cardNumber = 123456789;
 	public double grade = 4.90;
 	public float height = 5.7f;
-
+//here main method implement
 	public static void main(String[] args) {
 		// AboutMe is class aboutMe is an objector reference variable
 		// This action(when an object is created from class)is called instantiation

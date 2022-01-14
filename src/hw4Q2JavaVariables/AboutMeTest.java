@@ -2,7 +2,7 @@ package hw4Q2JavaVariables;
 
 public class AboutMeTest {
 	public static void main(String[] args) {
-	//	MyInfo class is instantiated, always inside main method, not in other method
+		// MyInfo class is instantiated, always inside main method, not in other method
 		AboutMe aboutMe1 = new AboutMe(); // Constructor is initialized, when an object is created
 //		aboutMe1.aboutMe();
 		aboutMe1.name = " Jhon";
