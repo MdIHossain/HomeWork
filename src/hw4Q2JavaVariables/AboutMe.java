@@ -1,7 +1,7 @@
 package hw4Q2JavaVariables;
 
 public class AboutMe {
-	// here just declared variable
+	// here just declared variable 
 		public String infomationAboutMe;
 		public String name;
 		public byte age;
