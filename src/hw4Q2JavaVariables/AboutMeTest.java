@@ -13,6 +13,7 @@ public class AboutMeTest {
 		aboutMe1.aboutMe();
 
 		System.out.println("\n******************\n");
+		// AboutMe class is instantiated here
 		AboutMe aboutMe2 = new AboutMe();
 
 		aboutMe2.name = "Alex";
