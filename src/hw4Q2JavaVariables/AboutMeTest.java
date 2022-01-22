@@ -2,9 +2,9 @@ package hw4Q2JavaVariables;
 
 public class AboutMeTest {
 	public static void main(String[] args) {
-		// MyInfo class is instantiated, always inside main method, not in other method
-		AboutMe aboutMe1 = new AboutMe(); // Constructor is initialized, when an object is created
-//		aboutMe1.aboutMe();
+		// AboutMe class is instantiated, always inside main method, not in other method
+		AboutMe aboutMe1 = new AboutMe();// Constructor is initialized, when an object is created
+		// Initialize all variable here
 		aboutMe1.name = " Jhon";
 		aboutMe1.age = 38;
 		aboutMe1.sex = 'M';
@@ -12,11 +12,10 @@ public class AboutMeTest {
 		aboutMe1.myYearlyRent = 12000;
 		aboutMe1.usCitizen = true;
 		aboutMe1.aboutMe();
-
 		System.out.println("\n******************\n");
 		// AboutMe class is instantiated here
 		AboutMe aboutMe2 = new AboutMe();
-
+		// Initialize all variable here
 		aboutMe2.name = "Alex";
 		aboutMe2.age = 60;
 		aboutMe2.sex = 'M';
