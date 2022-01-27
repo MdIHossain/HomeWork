@@ -18,9 +18,9 @@ public class AboutMe {
 	}
 
 	public void aboutMe() {
-		System.out.println("My Name is: " + name + "My age: " + age + "MyYearlyRent: " + myYearlyRent
-				+ "MyYearlySalary: " + myYearlySalary + "My Sex " + sex + "My Result" + usCitizen + "My Bank Balance "
-				+ myBankBalance + "My Grade" + grade + "My height " + height);
+		System.out.println("My Name is: " + name + " My age: " + age + " MyYearlyRent: " + myYearlyRent
+				+ " MyYearlySalary: " + myYearlySalary + " My Sex " + sex + " My Result" + usCitizen + " My Bank Balance "
+				+ myBankBalance + " My Grade" + grade + " My height " + height);
 	}
 
 }
