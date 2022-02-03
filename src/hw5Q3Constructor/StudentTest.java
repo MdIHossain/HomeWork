@@ -6,5 +6,4 @@ public class StudentTest {
 		Student student1 = new Student();
 		Student student2 = new Student("Ismail", 230, 'M', 3.976f, true);
 	}
-
 }
