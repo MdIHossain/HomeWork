@@ -19,9 +19,7 @@ public class Computer {
 		this.price = price;
 		this.grade = grade;
 		this.madeInUSA = madeInUSA;
-
-		System.out.println("My Brand " + brand + " Model : " + model + " operatingSystem : " + operatingSystem
-		+ " Price: " + price + " Grade: " + grade + " Made in USA? " + "Ans: " + madeInUSA);
-
+		System.out.println("My Brand " + brand + "\n Model : " + model + "\n operatingSystem : " + operatingSystem
+				+ "\n Price: " + price + "\n Grade: " + grade + "\n Made in USA? " + "Ans: " + madeInUSA);
 	}
 }
