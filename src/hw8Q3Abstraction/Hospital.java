@@ -6,5 +6,4 @@ public interface Hospital {
 	public abstract void surgeryRoom();
 
 	public void cafeteria();
-
 }
