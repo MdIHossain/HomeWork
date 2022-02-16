@@ -6,6 +6,8 @@ public class AnimalTest {
 	public static void main(String[] args) {
 		Animal animal = new Animal();
 		animal.animalInfo();
+		// Bird, Mammal,Reptile extends inherit Animal class is an exampleof
+		// Hierarchical inheritance
 
 		System.out.println("\n**************\n");
 		Mammal mammal = new Mammal();
@@ -25,7 +27,7 @@ public class AnimalTest {
 		System.out.println("\n**************\n");
 		Dog dog = new Dog();
 		dog.dogInfo();
-		dog.mammalInfo();
+		dog.mammalInfo();// Dog extends Mammal this is of single inheritance
 		dog.animalInfo();
 
 		System.out.println("\n**************\n");
@@ -45,7 +47,7 @@ public class AnimalTest {
 		bullDog.bullDog();
 		bullDog.dogInfo();
 		bullDog.mammalInfo();
-		bullDog.animalInfo();
+		bullDog.animalInfo();// BULLDOG extends Mammal extends Animal is an example of Muli-level inheritance
 
 		System.out.println("\n**************\n");
 		Cobra cobra = new Cobra();
